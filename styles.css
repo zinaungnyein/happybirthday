@@ -1,0 +1,73 @@
+body {
+    background: url(music/birthday.jpg);
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  @font-face {
+    font-family: 'ChopinScript.otf';
+    src: url('ChopinScript.otf');
+}
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .birthdayText {
+    font-size: 100px;
+    font-family: 'ChopinScript.otf';
+    font-weight: bold;
+    background: -webkit-linear-gradient(#FFC837, #FF8008);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  
+  .playlistContainer {
+    margin-bottom: 100px;
+  }
+  
+  .trackItem {
+    color: #ffc107;
+    font-size: 20px;
+    border-bottom: 1px solid #6c757d;
+    padding: 10px 0px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .musicPlayer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .currentAndTotel {
+    color: #fff;
+  }
+  
+  #progressBar {
+    width: 500px;
+    height: 5px;
+    background-color: #6c757d;
+  }
+  
+  #currentProgress {
+    width: 0%;
+    height: 100%;
+    background-color: #dc3545;
+  }
+  
+  .controls {
+    font-size: 30px;
+    color: #fff;
+    margin: 20px 40px;
+    cursor: pointer;
+  }
+  
+  .pauseButton {
+    display: none;
+  }
