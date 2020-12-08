@@ -2,6 +2,7 @@ body {
     background: url(music/birthday.jpg);
     background-size: cover;
     overflow: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
   @font-face {
